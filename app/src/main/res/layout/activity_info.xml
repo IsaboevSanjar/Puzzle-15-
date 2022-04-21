@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:padding="10dp"
+    tools:context=".ui.InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/fillbutton"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/exit_game"
+                android:layout_width="0dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_exit_svgrepo_com" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.3" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/my_pic"
+                app:shapeAppearanceOverlay="@style/Dumaloq" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="This is the first my full game which have certain numbers.
+Tiles are placed randomly, and also there is an empty
+tile on the field. The main purpose is to move tiles through the field
+and arrange them in ascending order from left to right
+Press on chip or just move it and it will be moved on the
+empty space next door. Try to solve the puzzle,using as less
+step as it possible. Good Luck!😊"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Developed by:Sanjar Isaboev\n\nJanuary 2022"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="88dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Connect with me"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_right_24" />
+
+            <LinearLayout
+                android:id="@+id/telegram"
+                android:layout_width="66dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="5dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="3dp"
+                    android:src="@drawable/telegram" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telegram"
+                    android:textColor="#DDCE43" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    tools:context=".ui.StartActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:text="Puzzle 15"
+            android:textColor="#EDA73F"
+            android:textSize="40sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.7" />
+
+        <ImageView
+            android:id="@+id/info_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_about_svgrepo_com" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/menuback" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/start_game"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:paddingTop="3dp"
+                android:src="@drawable/ic_play_" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Start"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/result_game"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:src="@drawable/ic_results" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Result"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_game"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:src="@drawable/ic_settings_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Settings"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/exit_game"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:src="@drawable/ic_exit_svgrepo_com" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Exit game"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

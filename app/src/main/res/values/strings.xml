@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Puzzle 15</string>
+    <string name="sound_off">Sound off</string>
+    <string name="sound_on">Sound on</string>
+    <string name="night_off">Light mode</string>'
+    <string name="night_on">Dark mode</string>
+</resources>
